@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Example commands collection",
+        "description": "Safe-Z, Z-probe commands",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/example.json"
+    }
+]
