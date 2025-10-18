@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Basic",
+        "description": "Zero XY, Zero Z, Safe Z, Z-probe, Move to origin, Coordinates commands",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/en/basic.uc"
+    },
+    {
+        "name": "Center finder",
+        "description": "Hole/boss center finder commands",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/en/centerFinder.uc"
+    },
+    {
+        "name": "Legacy",
+        "description": "Zero XY, Zero Z, Restore origin commands",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/en/legacy.uc"
+    }
+]

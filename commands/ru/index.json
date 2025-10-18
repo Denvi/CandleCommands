@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Основные",
+        "description": "Обнулить XY, Обнулить Z, Безопасная Z, Z-щуп, Рабочий ноль, Машинный ноль, Координаты",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/ru/basic.uc"
+    },
+    {
+        "name": "Центроискатель",
+        "description": "Поиск центра отверстия/выступа",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/ru/centerFinder.uc"
+    },
+    {
+        "name": "Устаревшие",
+        "description": "Обнулить XY, Обнулить Z, Восстановить СК",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/ru/legacy.uc"
+    }
+]
