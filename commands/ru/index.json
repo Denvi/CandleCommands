@@ -12,6 +12,12 @@
         "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/ru/centerFinder.uc"
     },
     {
+        "name": "FluidNC",
+        "description": "Отправить с SD карты",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/ru/fluidnc.uc"
+    },
+    {
         "name": "Устаревшие",
         "description": "Обнулить XY, Обнулить Z, Восстановить СК",
         "author": "Denvi",

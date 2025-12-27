@@ -12,6 +12,12 @@
         "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/en/centerFinder.uc"
     },
     {
+        "name": "FluidNC",
+        "description": "Send from SD card",
+        "author": "Denvi",
+        "url": "https://raw.githubusercontent.com/Denvi/CandleCommands/main/commands/en/fluidnc.uc"
+    },
+    {
         "name": "Legacy",
         "description": "Zero XY, Zero Z, Restore origin commands",
         "author": "Denvi",
