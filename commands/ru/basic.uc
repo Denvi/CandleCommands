@@ -18,7 +18,7 @@
         "imageName": "search_for_z.png",
         "imageBase64": "",
         "type": "1",
-        "code": "const distance = 30;    // максимальное расстояние поиска\nconst offset = 0;    // высота датчика\nconst lift = 5;    // подъем инструмента после операции\nconst seekRate = 100;    // быстрая подача\nconst feedRate = 10;    // медленная подача\n\napp.device.storeParserState();\napp.device.sendCommands([\n    \"G21 G91\",\n    \"G38.2 Z-\" + distance + \" F\" + seekRate,\n    \"G0 Z1\",\n    \"G38.2 Z-2 F\" + feedRate,\n    \"G92 Z\" + offset,\n    \"G91 G0 Z\" + lift\n]);\napp.device.waitResponses();\napp.device.restoreParserState();"
+        "code": "const distance = 30;    // максимальное расстояние поиска\nconst offset = 0;    // высота датчика\nconst lift = 5;    // подъем инструмента после операции\nconst seekRate = 100;    // быстрая подача\nconst feedRate = 10;    // медленная подача\n\napp.device.storeParserState();\napp.device.sendCommands([\n    \"G21 G94 G91\",\n    \"G38.2 Z-\" + distance + \" F\" + seekRate,\n    \"G0 Z1\",\n    \"G38.2 Z-2 F\" + feedRate,\n    \"G92 Z\" + offset,\n    \"G91 G0 Z\" + lift\n]);\napp.device.waitResponses();\napp.device.restoreParserState();"
     },
     {
         "hint": "Безопасная Z",
